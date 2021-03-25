@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+#tablero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    width: 400px;
+    height: 300px;
+    background-color: green;
+}
+
+.carta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 170px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.numeroCarta{
+    margin:10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color:red;
+}
